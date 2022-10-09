@@ -17,9 +17,6 @@
             android:name=".YoutubeActivity"
             android:exported="false" />
         <activity
-            android:name=".YoutubeAvtivity"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
