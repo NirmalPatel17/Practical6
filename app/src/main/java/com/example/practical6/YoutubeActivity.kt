@@ -22,8 +22,7 @@ class YoutubeActivity : AppCompatActivity() {
     }
 
     private val youtubeid = "fJn9B64Znrk"
-    private fun initYoutubePlayer()
-    {
+    private fun initYoutubePlayer() {
         val webSettings: WebSettings = binding.youtubeWebView.settings
         webSettings.javaScriptEnabled = true
         webSettings.loadWithOverviewMode = true
